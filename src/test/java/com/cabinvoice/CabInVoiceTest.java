@@ -1,10 +1,15 @@
 package com.cabinvoice;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 public class CabInVoiceTest {
-    InVoiceGenerator inVoiceGenerator = new InVoiceGenerator();
+    InVoiceGenerator inVoiceGenerator = null;
+    @Before
+    public void setUp() throws Exception {
+        inVoiceGenerator = new InVoiceGenerator();
+    }
     @Test
     public void givenDistanceAndTime_ShouldReturnTotalFare() {
         double distance = 2.0;

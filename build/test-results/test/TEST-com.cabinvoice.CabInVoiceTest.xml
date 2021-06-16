@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cabinvoice.CabInVoiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-16T14:23:07" hostname="DESKTOP-4QDC4A3" time="0.006">
+<testsuite name="com.cabinvoice.CabInVoiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-16T15:55:01" hostname="DESKTOP-4QDC4A3" time="0.006">
   <properties/>
-  <testcase name="givenMultipleRides_ShouldReturnTotalFare" classname="com.cabinvoice.CabInVoiceTest" time="0.006"/>
+  <testcase name="givenLessDistanceAndTime_ShouldReturnMinimumFare" classname="com.cabinvoice.CabInVoiceTest" time="0.003"/>
+  <testcase name="givenMultipleRides_ShouldReturnTotalFare" classname="com.cabinvoice.CabInVoiceTest" time="0.002"/>
+  <testcase name="givenDistanceAndTime_ShouldReturnTotalFare" classname="com.cabinvoice.CabInVoiceTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
