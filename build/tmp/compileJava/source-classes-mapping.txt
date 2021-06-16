@@ -1,2 +1,4 @@
+com/cabinvoice/Ride.java
+ com.cabinvoice.Ride
 com/cabinvoice/InVoiceGenerator.java
  com.cabinvoice.InVoiceGenerator
